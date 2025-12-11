@@ -50,3 +50,55 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
+```
+
+## 📄 Create `requirements.txt`
+
+```txt
+streamlit
+torch
+transformers
+pillow
+scikit-learn
+numpy
+```
+
+Run this command to generate it automatically:
+```bash
+pip freeze > requirements.txt
+```
+
+## 🌐 Deploy on Streamlit Cloud (Free)
+
+1. Push this repo to GitHub
+2. Go to [https://share.streamlit.io](https://share.streamlit.io)
+3. New app → Select your repo → `app.py` → Deploy!
+
+## 🎨 Preview
+
+![Screenshot 1](https://raw.githubusercontent.com/yourusername/smart-image-vision/main/screenshot1.png)  
+![Screenshot 2](https://raw.githubusercontent.com/yourusername/smart-image-vision/main/screenshot2.png)
+
+> Pro tip: Take 2–3 clean screenshots of your app and upload them to the repo!
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first.
+
+## 👨‍💻 Author
+
+**Asad Aziz**  
+- GitHub: [@yourusername](https://github.com/yourusername)  
+- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+
+## 📜 License
+
+MIT License – feel free to use, modify, and share!
+
+---
+
+<div align="center">
+  <strong>Built with passion in 2025</strong> <br/>
+  ⭐ Star this repo if you found it useful!
+</div>
+```
