@@ -22,8 +22,8 @@ Instantly understand any photo using state-of-the-art vision-language models.
 
 ## 🚀 Live Demo
 
-https://smart-image-vision.streamlit.app  
-*(Deployed instantly via Streamlit Community Cloud)*
+[![🚀 Live Demo – Streamlit](https://img.shields.io/badge/🚀-Live%20Demo%20%E2%80%93%20Streamlit-blue)](https://smart-image-vision-gkw5gipznpyipyzshsc3uh.streamlit.app/)
+
 
 ## 🛠 Tech Stack
 
@@ -68,19 +68,6 @@ Run this command to generate it automatically:
 pip freeze > requirements.txt
 ```
 
-## 🌐 Deploy on Streamlit Cloud (Free)
-
-1. Push this repo to GitHub
-2. Go to [https://share.streamlit.io](https://share.streamlit.io)
-3. New app → Select your repo → `app.py` → Deploy!
-
-## 🎨 Preview
-
-![Screenshot 1](https://raw.githubusercontent.com/yourusername/smart-image-vision/main/screenshot1.png)  
-![Screenshot 2](https://raw.githubusercontent.com/yourusername/smart-image-vision/main/screenshot2.png)
-
-> Pro tip: Take 2–3 clean screenshots of your app and upload them to the repo!
-
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first.
@@ -88,8 +75,8 @@ Pull requests are welcome! For major changes, please open an issue first.
 ## 👨‍💻 Author
 
 **Asad Aziz**  
-- GitHub: [@yourusername](https://github.com/yourusername)  
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- GitHub: [ASAD-AZIZ](https://github.com/Asad-Aziz-001)  
+- LinkedIn: [ASAD-AZIZ](https://www.linkedin.com/in/asad-aziz-140p)
 
 ## 📜 License
 
