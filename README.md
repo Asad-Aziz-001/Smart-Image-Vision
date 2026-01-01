@@ -55,12 +55,12 @@ streamlit run app.py
 ## 📄 Create `requirements.txt`
 
 ```txt
-streamlit
-torch
-transformers
-pillow
-scikit-learn
-numpy
+streamlit>=1.32.0
+torch>=2.0.0
+transformers>=4.35.0
+pillow>=10.0.0
+scikit-learn>=1.3.0
+numpy>=1.21.0
 ```
 
 Run this command to generate it automatically:
