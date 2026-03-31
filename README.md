@@ -22,7 +22,7 @@ Instantly understand any photo using state-of-the-art vision-language models.
 
 ## 🚀 Live Demo
 
-[![🚀 Live Demo – Streamlit](https://img.shields.io/badge/🚀-Live%20Demo%20%E2%80%93%20Streamlit-blue)](https://smart-image-vision-gkw5gipznpyipyzshsc3uh.streamlit.app/)
+[![🚀 Live Demo – Streamlit](https://img.shields.io/badge/🚀-Live%20Demo%20%E2%80%93%20Streamlit-blue)](https://smart-image-vision-001.streamlit.app/)
 
 
 ## 🛠 Tech Stack
