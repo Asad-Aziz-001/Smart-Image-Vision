@@ -4,6 +4,11 @@ import numpy as np
 import torch
 from sklearn.cluster import KMeans
 from transformers import BlipProcessor, BlipForConditionalGeneration
+import warnings
+import os
+
+# Suppress all warnings
+warnings.filterwarnings('ignore')
 
 # ---------------------------------------------------------
 # PAGE CONFIGURATION
