@@ -6,14 +6,24 @@ from sklearn.cluster import KMeans
 from transformers import BlipProcessor, BlipForConditionalGeneration
 import warnings
 import os
+import logging
 
-# Suppress warnings for clean logs
+# ============================================
+# SUPPRESS ALL WARNINGS AND LOGS
+# ============================================
+# Suppress Python warnings
 warnings.filterwarnings('ignore')
 
 # Suppress transformers and torch warnings
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+os.environ["TRANSFORMERS_VERBOSITY"] = "error"
+
+# Suppress logging
+logging.getLogger("transformers").setLevel(logging.ERROR)
+logging.getLogger("torch").setLevel(logging.ERROR)
+logging.getLogger("PIL").setLevel(logging.ERROR)
 
 # ---------------------------------------------------------
 # PAGE CONFIGURATION
@@ -188,7 +198,7 @@ if uploaded:
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image(image, caption="📷 Uploaded Image", use_column_width=True)
+        st.image(image, caption="📷 Uploaded Image", use_container_width=True)
 
     with col2:
         with st.spinner("⏳ Analyzing image with AI..."):
