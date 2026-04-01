@@ -198,6 +198,7 @@ if uploaded:
     col1, col2 = st.columns(2)
 
     with col1:
+        # ✅ FIXED: Changed use_column_width to use_container_width
         st.image(image, caption="📷 Uploaded Image", use_container_width=True)
 
     with col2:
@@ -227,4 +228,3 @@ if uploaded:
 # ---------------------------------------------------------
 st.markdown("---")
 st.caption("Developed by **ASAD AZIZ** | Modern UI Powered by Streamlit + Custom CSS")
-
