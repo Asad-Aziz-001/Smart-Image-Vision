@@ -7,8 +7,13 @@ from transformers import BlipProcessor, BlipForConditionalGeneration
 import warnings
 import os
 
-# Suppress all warnings
+# Suppress warnings for clean logs
 warnings.filterwarnings('ignore')
+
+# Suppress transformers and torch warnings
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 # ---------------------------------------------------------
 # PAGE CONFIGURATION
